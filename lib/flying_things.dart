@@ -10,4 +10,11 @@ class Mosquito{
   void buzz(){
     print('buzzing');
   }
+
+  void doMosquitoThings(){
+    crawl();
+    flutter();
+    buzz();
+    print('sucking blood');
+  }
 }
